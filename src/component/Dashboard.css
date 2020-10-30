@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;700&display=swap');
+
+body{
+    background-color: #bdb5c4;
+    color: white;
+    font-family: 'Nunito',sans-serif  ;
+}
+
+.header{
+    background-color:rgb(40, 8, 61);
+    padding: 15px;
+    font-size: 12px;
+    margin-bottom: 10px  ;
+}
+.heading{
+    font-size: 29px;
+    font-weight: 700;
+    vertical-align: middle;
+    text-transform: uppercase;
+    
+}
+
+.fyc{
+    font-size: 12px;
+    padding: 20px;
+    margin-bottom: 10px;
+    
+}
+
+.fyc .chart{
+    margin-top: 10px;
+
+}
+.source{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.setting{
+
+    margin-left: -120px;
+    width: 100%;
+}
+
+.stats{
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.title{
+    
+    text-transform: uppercase;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: rgb(40, 8, 61);
+}
+
+.dataset{
+    padding: 8px;
+    background-color: rgb(40, 8, 61);
+
+    border-radius: 4px;
+}
+
+.drop{
+    vertical-align: middle;
+    background-color: #2a2a2a;
+    color: white;
+}
+
+.widgetWrap{
+    background-color: #2a2a2a;
+    border: 1px solid rgb(55, 3, 90);
+    border-radius: 5px;
+}
+
+.widgetTitle{
+    border-bottom: 1px solid #665151;
+    text-align: left;
+
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 10px 10px;
+    background-color: rgb(55, 3, 90);
+
+}
+
+.widgetValue:hover{
+    background-color: #2a2a2a;
+    text-align: center;
+    padding: 5px;
+    margin: -7px;
+    border-radius: 7px;
+    color:yellow;
+    transform: scale(1.1);
+}
+
+.widgetValue{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(122, 87, 146);
+}
+
+.widgetValue .value{
+    font-size: 57px;
+    font-weight: 700;
+    text-align: left;
+    padding: 0px 7px;
+    line-height: 100%;
+
+}
+
+.description{
+    text-align: left;
+    font-size: 12px;
+    padding-left: 13px;
+}
+
+text{
+    fill: white;
+}
+
+.footer{
+    color: black;
+    text-align: center;
+}
